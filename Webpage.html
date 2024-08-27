@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333;">
+
+    <!-- Header -->
+    <header style="background: #2c3e50; color: #fff; padding: 10px 0; text-align: center;">
+        <div style="margin-bottom: 10px;">
+            <img src="C:\Users\arush\OneDrive\Desktop\Yash\Logo.png" alt="Website Logo" style="max-width: 100px;">
+        </div>
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 15px;"><a href="#about" style="color: #fff; text-decoration: none; font-weight: bold;">About</a></li>
+                <li style="margin: 0 15px;"><a href="#portfolio" style="color: #fff; text-decoration: none; font-weight: bold;">Portfolio</a></li>
+                <li style="margin: 0 15px;"><a href="#projects" style="color: #fff; text-decoration: none; font-weight: bold;">Projects</a></li>
+                <li style="margin: 0 15px;"><a href="#contact" style="color: #fff; text-decoration: none; font-weight: bold;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 60px 20px; background-color: #ecf0f1; text-align: center;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <img src="C:\Users\arush\OneDrive\Desktop\Yash\Profile Pic.jpg" alt="Profile Picture" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+            <h1>Hello, I'm Yash Khandelwal</h1>
+            <p>I'm a Web developer. I specialize in HTML. With a background in Engineering from IIT Kharagpur and some freelancer experience, I have a passion for Coding.</p>
+            <h2>Skills</h2>
+            <p>HTML, Python</p>
+            <h2>Education</h2>
+            <p>UG Student</p>
+            <h2>Experience</h2>
+            <p>2 years of freelancing</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="padding: 60px 20px; background-color: #fff;">
+        <h2 style="text-align: center;">Portfolio</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div style="margin: 10px; width: 300px; background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="C:\Users\arush\OneDrive\Desktop\Yash\html logo.png" alt="Project 1" style="width: 100%;">
+                <h3 style="margin: 10px;">HTML Webpage</h3>
+                <p style="padding: 0 10px;">Made a personal webpage using only html.</p>
+            </div>
+            <div style="margin: 10px; width: 300px; background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="C:\Users\arush\OneDrive\Desktop\Yash\SWG Logo.jpg" alt="Project 2" style="width: 100%;">
+                <h3 style="margin: 10px;">SWG App </h3>
+                <p style="padding: 0 10px;">Made an app using python.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 60px 20px; background-color: #f9f9f9;">
+        <h2 style="text-align: center;">Projects</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="margin: 20px 0; padding: 10px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <h3>HTML Webpage</h3>
+                <p>Technologies Used: HTML, Notepad</p>
+                <p>Challenges: Finding Relevant videos on youtube for learning html, correcting errors made during typing the code.</p>
+                <p>Achievements: Learnt many new things!</p>
+                <a href="[Project Link]" target="_blank" style="color: #2c3e50; text-decoration: none;">View Project</a>
+            </div>
+            <div style="margin: 20px 0; padding: 10px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <h3>SWG App </h3>
+                <p>Technologies Used: Python </p>
+                <p>Challenges: Debugging of the errors, making the app funtion smoothly.</p>
+                <p>Achievements: Learnt many new things!</p>
+                <a href="[Project Link]" target="_blank" style="color: #2c3e50; text-decoration: none;">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 60px 20px; background-color: #ecf0f1;">
+        <h2 style="text-align: center;">Contact Me</h2>
+        <form action="mailto:yashkhandelwal512me@gmail.com" method="post" enctype="text/plain" style="max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <label for="name" style="display: block; margin: 10px 0 5px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            <label for="email" style="display: block; margin: 10px 0 5px;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
+            <label for="message" style="display: block; margin: 10px 0 5px;">Message:</label>
+            <textarea id="message" name="message" required style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            <button type="submit" style="padding: 10px 20px; background: #2c3e50; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send</button>
+        </form>
+        <p style="text-align: center;">Email: yashkhandelwal512me@gmail.com</p>
+        <p style="text-align: center;">Phone: +91 96807 82766</p>
+        <div style="text-align: center;">
+            <a href="https://twitter.com/yourprofile" target="_blank" style="color: #2c3e50; text-decoration: none; margin: 0 10px;">Twitter</a>
+            <a href="https://www.linkedin.com/in/yash-khandelwal-652318325/" target="_blank" style="color: #2c3e50; text-decoration: none; margin: 0 10px;">LinkedIn</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #2c3e50; color: #fff; padding: 20px; text-align: center;">
+        <p>Contact Information: yashkhandelwal512me@gmail.com | +91 96807 82766</p>
+        <p>Address: Your Address Here</p>
+        <div>
+            <a href="https://twitter.com/yourprofile" target="_blank" style="color: #fff; text-decoration: none; margin: 0 10px;">Twitter</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color: #fff; text-decoration: none; margin: 0 10px;">LinkedIn</a>
+            <!-- Add more social media links as needed -->
+        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
